@@ -1,0 +1,551 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>轩萱 - Infinitely Progress</title><meta name="author" content="佳佳子 &amp; 萱萱子"><meta name="copyright" content="佳佳子 &amp; 萱萱子"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Infinitely Progress">
+<meta property="og:type" content="website">
+<meta property="og:title" content="轩萱">
+<meta property="og:url" content="https://www.xuan.pink/index.html">
+<meta property="og:site_name" content="轩萱">
+<meta property="og:description" content="Infinitely Progress">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://www.xuan.pink/img/suan.jpg">
+<meta property="article:author" content="佳佳子 &amp; 萱萱子">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.xuan.pink/img/suan.jpg"><link rel="shortcut icon" href="/img/heart.png"><link rel="canonical" href="https://www.xuan.pink/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.12.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.32/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Error',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.0/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '轩萱',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: true,
+  isToc: false,
+  postUpdate: '2024-06-03 18:41:24'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.1.1"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/suan.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">21</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">3</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/img/index_page.png')"><nav id="nav"><span id="blog-info"><a href="/" title="轩萱"><img class="site-icon" src="/img/heart.png"/><span class="site-name">轩萱</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">轩萱</h1><div id="site_social_icons"><a class="social-icon" href="https://github.com/DeNeRATe-cool" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="/denerate@buaa.edu.cn" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/2024/06/03/%E8%BD%A9%E8%90%B1100%E5%A4%A9%E5%93%A9%EF%BC%81/" title="轩萱100天哩！"><img class="post-bg" src="https://s2.loli.net/2024/06/03/CSim8WwKb4zUjBP.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="轩萱100天哩！"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/06/03/%E8%BD%A9%E8%90%B1100%E5%A4%A9%E5%93%A9%EF%BC%81/" title="轩萱100天哩！">轩萱100天哩！</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-06-02T16:16:10.000Z" title="Created 2024-06-03 00:16:10">2024-06-03</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/vlog/">vlog</a></span></div><div class="content">==今天是个重要日子——100天哩！！！==
+
+2024.6.1
+
+
+
+第一次一起上课——串讲
+给萱萱买了一束花，呼呼呼~~~萱萱宝宝喜欢吧！🥰
+下午和萱萱听了离散串讲
+我顺便写了简历，用上了萱萱负责排版的简历哦，开心！
+此处“省略” 4h，嘿嘿嘿
+和宝宝在酒店吃了100天的蛋糕哦，蛋糕和萱萱都好甜，爱吃~~~
+萱萱技术太厉害了！还帮了我两次~~~好喜欢和宝宝睡在床上无忧无虑！
+
+
+_20240602014357.jpg
+
+
+
+_20240603001416.jpg
+
+海底捞之旅
+和萱萱在海底捞吃饭好开心，嘻嘻嘻
+一起用萱萱的相机拍对方，发了我们的100天朋友圈，好多朋友的祝福，好开心，好开心，好满足~~~
+我们还会有很多很多个100天哦~~~
+
+
+_20240603001417.jpg
+
+
+
+_20240602014346.jpg
+
+
+
+_20240602014351.jpg
+
+</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2024/05/20/520-DATE/" title="520 DATE"><img class="post-bg" src="https://s2.loli.net/2024/05/20/tMkYcs5b6DpA91L.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="520 DATE"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/05/20/520-DATE/" title="520 DATE">520 DATE</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-05-19T16:55:45.000Z" title="Created 2024-05-20 00:55:45">2024-05-20</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/vlog/">vlog</a></span></div><div class="content">520 DATE
+
+2024.5.19
+今天真的SUPER开心！！！
+
+今天的萱萱太美啦~~~🥰
+（surely！萱萱一直很美！）
+早上和萱萱一起面试了传承之焰，早上见面好开心！
+和萱萱在学校里探寻摄影作业
+尼康一姐在线调曝光😜
+萱萱爱吃滴猫耳朵~~~
+
+
+_20240520005618.jpg
+
+
+
+_202405200056171.jpg
+
+
+
+_20240520005617.jpg
+
+比格比萨！好吃！
+本以为贼饿可以吃好多的，结果还是吃不下多少，两片就6分了🤣
+还得靠萱萱吃回本，嘻嘻嘻！
+
+
+_20240520005610.jpg
+
+
+
+_20240520005614.jpg
+
+（此处省略 4h）
+（球球芳哉“大陆帅哥”和“大陆美女”区）
+520礼物哟~~~
+萱萱送我的洞洞鞋
+AND
+我送萱萱的情侣鞋
+
+
+_20240519233401.jpg
+
+P图达人——杨某人
+
+
+_20240520004548.jpg
+
+</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2024/05/04/%E4%BA%91%E5%B1%B1%E6%A2%A8%E5%A2%85%E6%B0%91%E5%AE%BF%E6%97%85%E7%A8%8B/" title="云山梨墅民宿旅程"><img class="post-bg" src="https://s2.loli.net/2024/05/04/pejE9aKgRsfiIS8.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="云山梨墅民宿旅程"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/05/04/%E4%BA%91%E5%B1%B1%E6%A2%A8%E5%A2%85%E6%B0%91%E5%AE%BF%E6%97%85%E7%A8%8B/" title="云山梨墅民宿旅程">云山梨墅民宿旅程</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-05-03T17:08:44.000Z" title="Created 2024-05-04 01:08:44">2024-05-04</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/vlog/">vlog</a></span></div><div class="content">云山梨墅民宿旅程
+
+2024.5.1 - 2024.5.3
+
+出发~~~✈️
+早上10点就出发哩，还吃到了萱萱带的早餐，安逸！🥰
+到了六道口，俩门神 + 俩讨口子，哈哈哈🤣
+
+
+e4e05c8af503e82e2aecbde44aed2c3.jpg
+
+
+
+db781e959f427757f14739af3e09633.jpg
+
+云山梨墅，大学生打卡！
+
+
+e909a3a660a1fb77292b8b500e4c787.jpg
+
+
+
+9ee3231a346e3ef2bd0c7cc55385df6.jpg
+
+
+
+3ccd1e3c08837a77b89caf95a214437.jpg
+
+和萱萱的同居生活！💕
+“由浅入深简单，由深入浅难”，呜呜呜，夜深了，想萱萱了
+（萱萱的霸气照片！）
+
+
+77e24187ef051d07605d2ff8d1a8d02.jpg
+
+又一道🐏某人绝世佳菜——干煸腊肉豆角
+和萱萱一起买菜 + 多人合作攻坚克难做菜，嘻嘻嘻，很好吃，很满足！
+
+
+6204cb4c21bca03db18 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2024/04/30/%E6%83%85%E4%BE%A3%E6%89%8B%E7%8E%AF%EF%BC%8CI-M-ALWAYS-HERE/" title="情侣手环，I'M ALWAYS HERE"><img class="post-bg" src="https://s2.loli.net/2024/04/30/YXBLeFsUJA46W7m.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="情侣手环，I'M ALWAYS HERE"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/04/30/%E6%83%85%E4%BE%A3%E6%89%8B%E7%8E%AF%EF%BC%8CI-M-ALWAYS-HERE/" title="情侣手环，I'M ALWAYS HERE">情侣手环，I'M ALWAYS HERE</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-04-29T18:02:50.000Z" title="Created 2024-04-30 02:02:50">2024-04-30</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/vlog/">vlog</a></span></div><div class="content">情侣手环，I'M ALWAYS HERE
+
+2024.4.29
+
+就是爱你爱着你~~~🌹
+
+
+a56dab88d4b1eda11a350ff477a4e86.jpg
+
+</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2024/04/17/%E6%84%9F%E8%B0%A2%E8%90%B1%E8%90%B1%E7%9A%84gift%EF%BC%8C%E5%98%BB%E5%98%BB%E5%98%BB/" title="感谢萱萱的gift，嘻嘻嘻"><img class="post-bg" src="https://s2.loli.net/2024/04/17/L7JPNytjq19IRTU.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="感谢萱萱的gift，嘻嘻嘻"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/04/17/%E6%84%9F%E8%B0%A2%E8%90%B1%E8%90%B1%E7%9A%84gift%EF%BC%8C%E5%98%BB%E5%98%BB%E5%98%BB/" title="感谢萱萱的gift，嘻嘻嘻">感谢萱萱的gift，嘻嘻嘻</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-04-16T17:05:11.000Z" title="Created 2024-04-17 01:05:11">2024-04-17</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/vlog/">vlog</a></span></div><div class="content">感谢萱萱的gift，嘻嘻嘻
+
+2024.4.16
+
+萱萱送的温感小内内~~~
+（多久能够串给萱萱看嘞，打一掌哈哈哈！😜）
+
+
+a0b2f04dba3ac4a993d9cb664f3084a.jpg
+
+</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2024/04/11/%E8%88%AA%E5%91%B3%E5%8E%A8%E6%88%BF-%E9%9B%AA%E5%AA%9A%E5%A8%98/" title="航味厨房--雪媚娘"><img class="post-bg" src="https://s2.loli.net/2024/04/11/quxgwMimsOR1fXA.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="航味厨房--雪媚娘"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/04/11/%E8%88%AA%E5%91%B3%E5%8E%A8%E6%88%BF-%E9%9B%AA%E5%AA%9A%E5%A8%98/" title="航味厨房--雪媚娘">航味厨房--雪媚娘</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-04-10T16:43:20.000Z" title="Created 2024-04-11 00:43:20">2024-04-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/vlog/">vlog</a></span></div><div class="content">航味厨房--雪媚娘
+
+2024.4.10
+
+和萱萱一起做雪媚娘了~~~🥰
+
+
+db269b829b46f0193f03987bcd90ddd.jpg
+
+
+
+373f365471c85228b3aec9b16225739.jpg
+
+
+
+a195b7ff171a1e1fc47a80a00110d78.jpg
+
+
+
+3c8cb45c24aa71d46fe721541dee798.jpg
+
+（从别人的puq里看到了我俩，哈哈哈）
+
+
+2b70ab71f117423af543decc022e4b8.jpg
+
+</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2024/04/07/%E8%BD%A9%E8%90%B1%E6%BB%B4%E6%B8%85%E6%98%8E%E7%89%B9%E8%BE%91/" title="轩萱滴清明特辑"><img class="post-bg" src="https://s2.loli.net/2024/04/07/ZMnGlq1F3QKJWgo.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="轩萱滴清明特辑"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/04/07/%E8%BD%A9%E8%90%B1%E6%BB%B4%E6%B8%85%E6%98%8E%E7%89%B9%E8%BE%91/" title="轩萱滴清明特辑">轩萱滴清明特辑</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-04-07T15:54:53.000Z" title="Created 2024-04-07 23:54:53">2024-04-07</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/vlog/">vlog</a></span></div><div class="content">轩萱滴清明特辑
+
+2024.4.4 - 2024.4.7
+
+轩萱与沙河浪子的台球双打！
+萱萱的水平有明显提升哦！
+（还有萱萱的ins风拍摄哦~~~）
+（笑鼠了，结束之后，兔姐直接宣战李巨）
+
+
+11b13f451a31f00dbf67e9a0f8735c8.jpg
+
+
+
+1b65d5736e71287f3eea44572bae0ee.jpg
+
+轩萱的羽毛球双打
+
+
+deb19dfb4fee383eedeb4b8f4c9f28b.jpg
+
+沙河浪子家属见面版
+见到了兔姐的npy——赵奕晓
+和萱萱补位打麻将，恭喜萱萱又学到了一项技能！！！
+
+
+d8bcef932cddd502d611b3c1ab7ee10.jpg
+
+萱萱的创意拍摄——“甜食”杨某人
+
+
+f7344ce5db2a49bda7d026ecf2a308b.jpg
+
+和有成书琦的互拍~~~
+好幸福hhh~~~
+（u1s1，水果手机🍎的像素真不如 [ ] ）
+
+
+f5b8ef4509d55ad76a98da96eff6d75.jpg
+
+
+
+0751 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2024/03/22/%E4%BD%A0%E6%88%90%E5%8A%9F%E6%A0%87%E8%AE%B0%E4%BA%86%E4%B8%80%E5%8F%AA%E8%90%B1%E8%90%B1/" title="你成功标记了一只萱萱~~~"><img class="post-bg" src="https://s2.loli.net/2024/03/22/pPO2ABSoHvsTfYE.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="你成功标记了一只萱萱~~~"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/03/22/%E4%BD%A0%E6%88%90%E5%8A%9F%E6%A0%87%E8%AE%B0%E4%BA%86%E4%B8%80%E5%8F%AA%E8%90%B1%E8%90%B1/" title="你成功标记了一只萱萱~~~">你成功标记了一只萱萱~~~</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-03-21T16:33:19.000Z" title="Created 2024-03-22 00:33:19">2024-03-22</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/vlog/">vlog</a></span></div><div class="content">你成功标记了一只萱萱~~~
+
+2024.3.21
+
+种呀种草莓🥳
+（标记成功，嘻嘻嘻~~~）
+
+
+ce46770c167023b7243b7650567d958.jpg
+
+开（滑板）车接萱萱放学
+遥控滑板车怎么不算车呢，哈哈哈
+萱萱已经可以熟练借助外力拐弯哩！
+
+
+5ff23cee1ad98552cc3e2853750e856.jpg
+
+
+
+316bb5827690091919ad40799830382.jpg
+
+</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2024/03/15/%E7%99%BD%E8%89%B2%E6%83%85%E4%BA%BA%E8%8A%82/" title="白色情人节~~~"><img class="post-bg" src="https://s2.loli.net/2024/03/15/1YXTUBH29Iqb5pt.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="白色情人节~~~"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/03/15/%E7%99%BD%E8%89%B2%E6%83%85%E4%BA%BA%E8%8A%82/" title="白色情人节~~~">白色情人节~~~</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-03-14T16:31:36.000Z" title="Created 2024-03-15 00:31:36">2024-03-15</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/vlog/">vlog</a></span></div><div class="content">白色情人节~~~
+
+2024.3.14
+
+洋羊来哩！🥳
+白色情人节快乐哟，萱萱，晚上就有洋羊陪你哟！
+
+
+ead961d459c701de2f2cb4973d32d5f.jpg
+
+和萱萱滑滑板哩！
+在月黑风高无人小巷里，和萱萱在滑板上玩耍，太开心了🥰
+
+
+40aec8936f6ae424ee2015ffc759554.jpg
+
+
+
+b5efa8033f6c7487e366a8c6412283a.jpg
+
+
+
+60e190c4a6b9f83ae564e6d19039973.jpg
+
+
+
+80e37ef5aa305b6ad0ddc5fc9944991.jpg
+
+又进一步，wow~~~
+这里就不细说了，哈哈哈
+
+
+136a081d9fa363850f3a8d877ea1091.png
+
+</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2024/03/10/%E6%B2%99%E6%B2%B3%E9%9B%86%E5%B8%82vlog/" title="沙河集市vlog"><img class="post-bg" src="https://s2.loli.net/2024/03/10/CG4ESBboYZn3hct.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="沙河集市vlog"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/03/10/%E6%B2%99%E6%B2%B3%E9%9B%86%E5%B8%82vlog/" title="沙河集市vlog">沙河集市vlog</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-03-09T16:18:35.000Z" title="Created 2024-03-10 00:18:35">2024-03-10</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/vlog/">vlog</a></span></div><div class="content">沙河集市vlog
+
+2024.3.9
+
+和萱萱第一次逛沙河玫瑰园集市🥳
+早上见面的感觉不一样欸，难以描述，好喜欢~~~
+边逛集市边吃酱香饼，然后买了水果，萱萱还买了多肉，可爱捏🥰
+要离开的时候还遇到了czgg二人
+
+
+46149c295372c8e6e027900eaf69b24.jpg
+
+</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="page-number" href="/page/3/#content-inner">3</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/suan.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">佳佳子 &amp; 萱萱子</div><div class="author-info__description">Infinitely Progress</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">21</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/DeNeRATe-cool"><i class="fab fa-github"></i><span>Follow Us</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/DeNeRATe-cool" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="/denerate@buaa.edu.cn" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is a blog of 佳佳子 & 萱萱子</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/06/03/%E8%BD%A9%E8%90%B1100%E5%A4%A9%E5%93%A9%EF%BC%81/" title="轩萱100天哩！"><img src="https://s2.loli.net/2024/06/03/CSim8WwKb4zUjBP.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="轩萱100天哩！"/></a><div class="content"><a class="title" href="/2024/06/03/%E8%BD%A9%E8%90%B1100%E5%A4%A9%E5%93%A9%EF%BC%81/" title="轩萱100天哩！">轩萱100天哩！</a><time datetime="2024-06-02T16:16:10.000Z" title="Created 2024-06-03 00:16:10">2024-06-03</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/05/20/520-DATE/" title="520 DATE"><img src="https://s2.loli.net/2024/05/20/tMkYcs5b6DpA91L.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="520 DATE"/></a><div class="content"><a class="title" href="/2024/05/20/520-DATE/" title="520 DATE">520 DATE</a><time datetime="2024-05-19T16:55:45.000Z" title="Created 2024-05-20 00:55:45">2024-05-20</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/05/04/%E4%BA%91%E5%B1%B1%E6%A2%A8%E5%A2%85%E6%B0%91%E5%AE%BF%E6%97%85%E7%A8%8B/" title="云山梨墅民宿旅程"><img src="https://s2.loli.net/2024/05/04/pejE9aKgRsfiIS8.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="云山梨墅民宿旅程"/></a><div class="content"><a class="title" href="/2024/05/04/%E4%BA%91%E5%B1%B1%E6%A2%A8%E5%A2%85%E6%B0%91%E5%AE%BF%E6%97%85%E7%A8%8B/" title="云山梨墅民宿旅程">云山梨墅民宿旅程</a><time datetime="2024-05-03T17:08:44.000Z" title="Created 2024-05-04 01:08:44">2024-05-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/04/30/%E6%83%85%E4%BE%A3%E6%89%8B%E7%8E%AF%EF%BC%8CI-M-ALWAYS-HERE/" title="情侣手环，I'M ALWAYS HERE"><img src="https://s2.loli.net/2024/04/30/YXBLeFsUJA46W7m.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="情侣手环，I'M ALWAYS HERE"/></a><div class="content"><a class="title" href="/2024/04/30/%E6%83%85%E4%BE%A3%E6%89%8B%E7%8E%AF%EF%BC%8CI-M-ALWAYS-HERE/" title="情侣手环，I'M ALWAYS HERE">情侣手环，I'M ALWAYS HERE</a><time datetime="2024-04-29T18:02:50.000Z" title="Created 2024-04-30 02:02:50">2024-04-30</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/04/17/%E6%84%9F%E8%B0%A2%E8%90%B1%E8%90%B1%E7%9A%84gift%EF%BC%8C%E5%98%BB%E5%98%BB%E5%98%BB/" title="感谢萱萱的gift，嘻嘻嘻"><img src="https://s2.loli.net/2024/04/17/L7JPNytjq19IRTU.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="感谢萱萱的gift，嘻嘻嘻"/></a><div class="content"><a class="title" href="/2024/04/17/%E6%84%9F%E8%B0%A2%E8%90%B1%E8%90%B1%E7%9A%84gift%EF%BC%8C%E5%98%BB%E5%98%BB%E5%98%BB/" title="感谢萱萱的gift，嘻嘻嘻">感谢萱萱的gift，嘻嘻嘻</a><time datetime="2024-04-16T17:05:11.000Z" title="Created 2024-04-17 01:05:11">2024-04-17</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>Categories</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/meme/"><span class="card-category-list-name">meme</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/vlog/"><span class="card-category-list-name">vlog</span><span class="card-category-list-count">19</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%96%B0%E5%B9%B4/"><span class="card-category-list-name">新年</span><span class="card-category-list-count">1</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>Tags</span></div><div class="card-tag-cloud"><a href="/tags/meme/" style="font-size: 1.1em; color: #999">meme</a> <a href="/tags/%E6%96%B0%E5%B9%B4/" style="font-size: 1.1em; color: #999">新年</a> <a href="/tags/vlog/" style="font-size: 1.5em; color: #99a9bf">vlog</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/06/"><span class="card-archive-list-date">June 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/05/"><span class="card-archive-list-date">May 2024</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/04/"><span class="card-archive-list-date">April 2024</span><span class="card-archive-list-count">4</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/03/"><span class="card-archive-list-date">March 2024</span><span class="card-archive-list-count">7</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/02/"><span class="card-archive-list-date">February 2024</span><span class="card-archive-list-count">7</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">21</div></div><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Last Update :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-06-03T10:41:24.458Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By 佳佳子 & 萱萱子</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.12.0"></script><script src="/js/main.js?v=4.12.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.32/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
